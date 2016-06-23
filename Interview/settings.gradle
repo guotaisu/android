@@ -1,0 +1,1 @@
+include ':app', ':interviewer', ':interviewer2', ':testviewpager', ':reader'

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Interview.iml" filepath="$PROJECT_DIR$/Interview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interviewer/interviewer.iml" filepath="$PROJECT_DIR$/interviewer/interviewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interviewer/interviewer.iml" filepath="$PROJECT_DIR$/interviewer/interviewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interviewer2/interviewer2.iml" filepath="$PROJECT_DIR$/interviewer2/interviewer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reader/reader.iml" filepath="$PROJECT_DIR$/reader/reader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testviewpager/testviewpager.iml" filepath="$PROJECT_DIR$/testviewpager/testviewpager.iml" />
+    </modules>
+  </component>
+</project>
