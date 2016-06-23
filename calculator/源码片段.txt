@@ -1,0 +1,140 @@
+//¼ÓºÅ
+       b10.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               if(start==true){
+                   t=Double.parseDouble(s1);
+                   start=false;
+               }else{
+                   if(choose==1){
+                       t=t+Double.parseDouble(s1);
+                   }
+                   if(choose==2){
+                       t=t-Double.parseDouble(s1);
+                   }
+                   if(choose==3){
+                       t=t*Double.parseDouble(s1);
+                   }
+                   if(choose==4){
+                       t=t/Double.parseDouble(s1);
+                   }
+               }
+               s1="";
+               result.setText(s1);
+               choose=1;
+           }
+       });
+       //µÈÓÚºÅ
+       b11.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               if(choose==1){
+                   t=t+Double.parseDouble(s1);
+               }else if(choose==2){
+                    t=t-Double.parseDouble(s1);
+               }else if(choose==3){
+                   t=t*Double.parseDouble(s1);
+               }
+               else if(choose==4){
+                   t=t/Double.parseDouble(s1);
+               }
+               else{
+                   t=Double.parseDouble(s1);
+               }
+               result.setText(t+"");
+               choose=0;
+           }
+       });
+       //ÖØÖÃ¼ü
+       b12.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               init();
+               result.setText("");
+           }
+       });
+       //¼õºÅ
+       b13.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               if(start==true){
+                   t=Double.parseDouble(s1);
+                   start=false;
+               }else{
+                   if(choose==1){
+                       t=t+Double.parseDouble(s1);
+                   }
+                   if(choose==2){
+                       t=t-Double.parseDouble(s1);
+                   }
+                   if(choose==3){
+                       t=t*Double.parseDouble(s1);
+                   }
+                   if(choose==4){
+                       t=t/Double.parseDouble(s1);
+                   }
+               }
+               s1="";
+               result.setText(s1);
+               choose=2;
+           }
+       });
+       //³ËºÅ
+       b15.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               if(start==true){
+                   t=Double.parseDouble(s1);
+                   start=false;
+               }else{
+                   if(choose==1){
+                       t=t+Double.parseDouble(s1);
+                   }
+                   if(choose==2){
+                       t=t-Double.parseDouble(s1);
+                   }
+                   if(choose==3){
+                       t=t*Double.parseDouble(s1);
+                   }
+                   if(choose==4){
+                           t = t / Double.parseDouble(s1);
+                   }
+               }
+               s1="";
+               result.setText(s1);
+               choose=3;
+           }
+       });
+       //³ýºÅ
+       b16.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               if(start==true){
+                   t=Double.parseDouble(s1);
+                   start=false;
+               }else{
+                   if(choose==1){
+                       t=t+Double.parseDouble(s1);
+                   }
+                   if(choose==2){
+                       t=t-Double.parseDouble(s1);
+                   }
+                   if(choose==3){
+                       t=t*Double.parseDouble(s1);
+                   }
+                   if(choose==4){
+                       t=t/Double.parseDouble(s1);
+                   }
+               }
+               s1="";
+               result.setText(s1);
+               choose=4;
+           }
+       });
+   }
+   public void init(){
+       s1="";
+       t=0;
+       start=true;
+       choose=0;
+   }
